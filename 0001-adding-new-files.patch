@@ -1,0 +1,31 @@
+From cf8137651d004d3686d1d844b05e009820270980 Mon Sep 17 00:00:00 2001
+From: "My.admin" <myadmin@gmail.com>
+Date: Thu, 19 Apr 2018 19:17:14 +0530
+Subject: [PATCH] adding new files
+
+---
+ gitremote        | 1 +
+ stashexample.txt | 3 +++
+ 2 files changed, 4 insertions(+)
+ create mode 160000 gitremote
+ create mode 100644 stashexample.txt
+
+diff --git a/gitremote b/gitremote
+new file mode 160000
+index 0000000..9ae8dbc
+--- /dev/null
++++ b/gitremote
+@@ -0,0 +1 @@
++Subproject commit 9ae8dbca234a5594ab861ff14809caba1e27fee3
+diff --git a/stashexample.txt b/stashexample.txt
+new file mode 100644
+index 0000000..9629687
+--- /dev/null
++++ b/stashexample.txt
+@@ -0,0 +1,3 @@
++hello world
++
++
+-- 
+2.16.1.windows.4
+
