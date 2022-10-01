@@ -23,7 +23,8 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
     <br>
-
+    <br>
+    <br>
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
@@ -36,6 +37,5 @@
   </div>
 
    <h1> Thankyou, Happy Learning </h1>
-   <h5> Testing..... </h5>
   
 </form>
