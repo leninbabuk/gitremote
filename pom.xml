@@ -24,11 +24,11 @@
 <distributionManagement>
       <snapshotRepository>
         <id>myrepo</id>
-        <url>http://3.83.132.85:8082/artifactory/myrepo/</url>
+        <url>http://34.238.136.37:8082/artifactory/newrepo/</url>
       </snapshotRepository>
       <repository>
         <id>myrepo</id>
-        <url>http://3.83.132.85:8082/artifactory/myrepo/</url>
+        <url>http://34.238.136.37:8082/artifactory/newrepo/</url>
       </repository>
     </distributionManagement>
 
