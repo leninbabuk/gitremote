@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+     tools{
+        maven "Maven"
+    }
+    
+
+    stages {
+        stage('GIT Pull Request') {
+            steps {
+                git credentialsId: 'githubuser', url: 'https://github.com/leninbabuk/gitremote.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Static code analysis') {
+            steps {
+        withSonarQubeEnv('Sonar-Quebe') {
+                    sh  "mvn sonar:sonar"
+                }
+                }
+                
+        }
+        
+        
+    }
+}
