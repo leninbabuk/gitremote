@@ -35,6 +35,16 @@
 
         </plugins>
   </build>
+<distributionManagement>
+      <snapshotRepository>
+        <id>10thjan2024</id>
+        <url>http://18.234.100.33:8082/artifactory/10thjan2024/</url>
+      </snapshotRepository>
+      <repository>
+        <id>10thjan2024</id>
+        <url>http://18.234.100.33:8082/artifactory/10thjan2024/</url>
+      </repository>
+    </distributionManagement>
 
 </project>
 
